@@ -1,0 +1,18 @@
+<view class="detail_container">
+  <scroll-view scroll-y="true" scroll-x="false" class="scroll-view">
+    <block>
+      <image src="/image/lanqiu.jpg"></image>
+    </block>
+    <view class="detail_title">李宁青少年儿童室外耐磨正品篮球</view>
+    <view class="detail_price">￥121</view>
+    <view class="detail_spec">已选 棕色</view>
+    <!--这里data中article为bindName-->
+  </scroll-view>
+</view>
+<view class="page">
+  <view class="page__bd">
+    <view class="weui-btn-area">
+      <button class="weui-btn" type="warn" bindtap="openConfirm">立即购买</button>
+    </view>
+  </view>
+</view>

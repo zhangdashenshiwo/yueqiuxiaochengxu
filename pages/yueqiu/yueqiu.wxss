@@ -1,0 +1,149 @@
+.page__bd{
+    height: 100%;
+}
+.page__bd{
+    padding-bottom: 0;
+}
+.weui-tab__content{
+    padding-top: 60px;
+    text-align: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+}
+.head_item {
+  width: 374rpx;
+  text-align: center;
+  font-size: 30rpx;
+  color: #fff;
+}
+.ys2 {
+  background-image: url("http://img2.imgtn.bdimg.com/it/u=3708392930,3357618940&fm=26&gp=0.jpg");
+}
+
+.head {
+  height:80rpx;
+  background-color: #FF4A00;
+  border-top: 1rpx solid #fff;
+  border-bottom: 1rpx solid rgba(204, 204, 204, 1);
+  display: flex;
+  align-items: center;
+  top: 0;
+}
+
+.ring {
+  width: 2rpx;
+  height: 100%;
+  background-color: rgba(204, 204, 204, 1);
+}
+
+.img {
+  margin: 10rpx 0 10rpx 10rpx;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  width: 100%;
+}
+
+.introing {
+  display: flex;
+  flex-direction: column;
+  flex: right;
+  margin-right: 30rpx;
+}
+
+.position {
+  margin-top: 20rpx;
+  width: 60%;
+  font-size: 35rpx;
+  font-weight: bold;
+}
+
+.jiaqian {
+  font-size: 28rpx;
+  margin-top: 20rpx;
+}
+
+.address {
+  font-size: 25rpx;
+  color: #999;
+  margin-top: 20rpx;
+}
+
+.dizhi {
+  font-size: 25rpx;
+  margin-top: 20rpx;
+}
+
+.but {
+  position: absolute;
+  font-size: 25rpx;
+  margin-left: 620rpx;
+  margin-top: 55rpx;
+  border: red;
+  color: red;
+}
+
+.rendu {
+  position: absolute;
+  font-size: 25rpx;
+  margin-left: 620rpx;
+  margin-top: 120rpx;
+}
+
+.line {
+  align-content: center;
+  border: 1px solid #ccc;
+  opacity: 0.2;
+}
+
+.hr {
+  height: 10px;
+  background-color: #eee;
+}
+
+.images2{
+  width: 30rpx;
+  height: 30rpx;
+}
+.images3{
+  background-color: #05C7FF;
+  font-size: 15px;
+}
+.images4{
+  width: 40rpx;
+  height: 40rpx;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  background-color:#A4F6F5;
+}
+.select {
+  width: 50%;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  color: #000000;
+  font-size: 13px;
+  border-bottom: 10px solid #777777;
+}
+.normal {
+  width: 50%;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  color: #000000;
+  font-size: 13px;
+}
+.line{
+  height: 45px;
+  line-height: 45px;
+  font-size: 25px;
+  color: #666666;
+}

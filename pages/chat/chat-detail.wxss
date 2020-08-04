@@ -1,0 +1,73 @@
+.searchbar-result {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+.searchbar-result:before {
+  display: none;
+}
+
+.weui-cell {
+  padding: 12px 15px 12px 35px;
+}
+
+.circle {
+  background-color:#fff;
+  width: 100rpx;
+  height: 100rpx;
+  border: 0 solid #fff;
+  border-radius: 100%;
+  font-size: 0;
+}
+
+.image {
+  top: 40rpx;
+  margin-left: -25rpx;
+  display: flex;
+  width: 85rpx;
+  height: 85rpx;
+}
+
+.btn3 {
+  width: 30%;
+  margin-top: 20rpx;
+  background-color: #fff;
+  color: white;
+  border-radius: 40rpx;
+}
+
+.adduserorder {
+  margin-top: 50rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.viewclass {
+  width: 190rpx;
+  display: flex;
+  flex-direction: row;
+  font-style: italic;
+  justify-content: center;
+}
+
+.textls {
+  display: flex;
+  flex-direction: row;
+}
+.images{
+  width: 70rpx;
+  height: 70rpx;
+}
+.images2{
+  margin-top: 0rpx;
+  background-image: url('http://img4.imgtn.bdimg.com/it/u=1378154649,2230495081&fm=26&gp=0.jpg')
+}
+.images3{
+    background-image: url('http://img0.imgtn.bdimg.com/it/u=1675830268,4155857586&fm=26&gp=0.jpg')
+}
+.image4{
+  width: 100%;
+  height: 100%;
+}
+

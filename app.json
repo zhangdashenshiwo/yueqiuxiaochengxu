@@ -1,0 +1,68 @@
+{
+  "pages": [
+    "pages/chat/chat-detail",
+    "pages/log/lon",
+    "pages/gereng/gereng",
+    "pages/zhuye/zhuye",
+    "pages/yueqiu/yueqiu",
+    "pages/mine/mine",
+    "pages/mine/a/a",
+    "pages/mine/b/b",
+    "pages/mine/c/c",
+    "pages/mine/d/d",
+    "pages/mine/e/e",
+    "pages/mine/f/f",
+    "pages/mine/g/g",
+    "pages/jiaoxue/jiaoxue",
+    "pages/gongxiang/gongxiang",
+    "pages/wenzhang/wenzhang",
+    "pages/buy/buy",
+    "pages/shop/shop",
+    "pages/success/success",
+    "pages/peilian/peilian",
+    "pages/yuyue/yuyue",
+    "pages/donate/donate",
+    "pages/jz/jz",
+    "pages/xq/xq",
+    "pages/yuyue2/yuyue2"
+    
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    
+    "navigationBarBackgroundColor": "#00DAFF",
+    "navigationBarTitleText": "约球·弈球",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/chat/chat-detail",
+        "text": "首页",
+        "iconPath": "/images/c2.png",
+        "selectedIconPath": "/images/c1.png"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "text": "商城",
+        "iconPath": "/images/购物.png",
+        "selectedIconPath": "/images/购物 1.png"
+      },
+      {
+        "pagePath": "pages/zhuye/zhuye",
+        "text": "社区",
+        "iconPath": "/images/5.png",
+        "selectedIconPath": "/images/6.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "/images/a.png",
+        "selectedIconPath": "/images/a1.png"
+      }
+    ]
+  },
+  
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,16 @@
+<view class="page">
+  <view class="weui-msg">
+    <view class="weui-msg__icon-area">
+      <icon type="success" size="93"></icon>
+    </view>
+    <view class="weui-msg__text-area">
+      <view class="weui-msg__title">捐赠成功</view>
+      <view class="weui-msg__desc">感谢您的捐赠,受捐赠者因您而更美好</view>
+    </view>
+    <view class="weui-msg__opr-area">
+      <view class="weui-btn-area">
+        <button class="weui-btn" type="primary" bindtap="back">回到主页</button>
+      </view>
+    </view>
+  </view>
+</view>

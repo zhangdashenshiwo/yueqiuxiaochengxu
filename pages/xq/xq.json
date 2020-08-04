@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "i-card": "../../dist/card/index",
+    "i-input-number": "../../dist/input-number/index"
+  }
+}

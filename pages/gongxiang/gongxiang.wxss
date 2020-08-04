@@ -1,0 +1,9 @@
+.images{
+  height: 80rpx;
+  width: 80rpx
+}
+
+
+.ys2 {
+  background-image: url("http://img2.imgtn.bdimg.com/it/u=3708392930,3357618940&fm=26&gp=0.jpg");
+}

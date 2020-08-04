@@ -1,0 +1,7 @@
+page{
+   
+     background-image: url('https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2260840829,132460670&fm=27&gp=0.jpg')
+}
+image{
+    margin: 4px 0;
+}

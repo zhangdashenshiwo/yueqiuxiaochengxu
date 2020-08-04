@@ -1,0 +1,80 @@
+<view class='ys2'>
+<view style='font-size:50rpx'>
+  <image src="/images/jiaoyi.png" class='images'></image>
+  交易
+  <image src='/images/luru.png' class='images' style='margin-left:50rpx'></image>
+  录入
+  <image src='/images/sousuo.png' class='images' style='margin-left:50rpx'></image>
+  搜索
+</view>
+<view class="weui-panel weui-panel_access" class='ys2'>
+  <view class="weui-panel__hd" style='font-weight:800'>篮球</view>
+  <view class="weui-panel__bd">
+    <navigator url="/pages/xq/xq" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+      <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+        <image class="weui-media-box__thumb" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2959572316,2829975479&fm=27&gp=0.jpg" />
+      </view>
+      <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+        <view class="weui-media-box__title">篮球1
+          <text style='font-size:30rpx;margin-left:250rpx'>查看详情</text>
+          <image src='/images/jiantou.png' style='height:30rpx; width:30rpx; margin-left:7rpx'></image>
+        </view>
+        <view class="weui-media-box__desc">耐克 NIKE TRUE GRIP 7号 日常活动篮。</view>
+      </view>
+    </navigator>
+    <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+      <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+        <image class="weui-media-box__thumb" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2626602065,3203937514&fm=27&gp=0.jpg" style='height:100%;width:100%' />
+      </view>
+      <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+        <view class="weui-media-box__title">篮球2
+          <text style='font-size:30rpx;margin-left:250rpx'>查看详情</text>
+          <image src='/images/jiantou.png' style='height:30rpx; width:30rpx; margin-left:7rpx'></image>
+        </view>
+        <view class="weui-media-box__desc">狂神5号篮球 学生水泥地6号7号 室内外篮球5号青少年小学。</view>
+      </view>
+    </navigator>
+  </view>
+  <view class="weui-panel__ft">
+    <view class="weui-cell weui-cell_access weui-cell_link">
+      <view class="weui-cell__bd">查看更多</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+    </view>
+  </view>
+</view>
+<view class="weui-panel weui-panel_access" style='margin-top:80rpx' class='ys2'>
+  <view class="weui-panel__hd" style='font-weight:800'>足球</view>
+  <view class="weui-panel__bd">
+    <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+      <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+        <image class="weui-media-box__thumb" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=167181803,3281896062&fm=26&gp=0.jpg" />
+      </view>
+      <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+        <view class="weui-media-box__title">足球一
+          <text style='font-size:30rpx;margin-left:230rpx'>查看详情</text>
+          <image src='/images/jiantou.png' style='height:30rpx; width:30rpx; margin-left:7rpx'></image>
+        </view>
+        <view class="weui-media-box__desc">李宁足球中招考试旗舰店品牌官网正品专卖。</view>
+      </view>
+    </navigator>
+    <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+      <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+        <image class="weui-media-box__thumb" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2816885782,423671383&fm=26&gp=0.jpg" />
+      </view>
+      <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+        <view class="weui-media-box__title">足球二
+          <text style='font-size:30rpx;margin-left:230rpx'>查看详情</text>
+          <image src='/images/jiantou.png' style='height:30rpx; width:30rpx; margin-left:7rpx'></image>
+        </view>
+        <view class="weui-media-box__desc">由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。</view>
+      </view>
+    </navigator>
+  </view>
+  <view class="weui-panel__ft">
+    <view class="weui-cell weui-cell_access weui-cell_link">
+      <view class="weui-cell__bd">查看更多</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+    </view>
+  </view>
+</view>
+</view>

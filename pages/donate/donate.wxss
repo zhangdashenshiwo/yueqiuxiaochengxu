@@ -1,0 +1,16 @@
+.distance {
+  margin-top: 15rpx;
+  border: 1px dotted #ccc;
+  margin-bottom: 15rpx;
+  width: 99%;
+  margin: 0 ;
+  background-color: #fff;
+}
+
+.ys1 {
+  background-image: url("http://img4.imgtn.bdimg.com/it/u=243847563,666960601&fm=26&gp=0.jpg");
+}
+
+.ys2 {
+  background-image: url("http://img2.imgtn.bdimg.com/it/u=3708392930,3357618940&fm=26&gp=0.jpg");
+}

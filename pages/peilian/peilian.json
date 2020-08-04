@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "i-card": "../../dist/card/index",
+    "i-input-number": "../../dist/input-number/index"
+  },
+  "navigationBarTitleText": "预约信息"
+}

@@ -1,0 +1,264 @@
+<i-tabs current="{{ current_scroll }}" scroll bindchange="handleChangeScroll">
+  <i-tab key="tab1" title="篮球"></i-tab>
+  <i-tab key="tab2" title="足球"></i-tab>
+  <i-tab key="tab3" title="羽毛球"></i-tab>
+  <i-tab key="tab4" title="乒乓球"></i-tab>
+  <i-tab key="tab5" title="排球"></i-tab>
+  <i-tab key="tab6" title="桌球"></i-tab>
+  <i-tab key="tab7" title="高尔夫"></i-tab>
+  <i-tab key="tab8" title="游泳"></i-tab>
+  <i-tab key="tab9" title="桌游"></i-tab>
+</i-tabs>
+
+<view class='nav'>
+  <view id='0' class="{{currentTab==0?'select':'normal'}}" bindtap="switchNav">约球</view>
+  <view class='line'>|</view>
+  <view id='1' class="{{currentTab==1?'select':'normal'}}" bindtap="switchNav">陪玩</view>
+</view>
+<swiper current="{{currentTab}}" style="height:{{winheight}}px">
+  <swiper-item>
+    <view class='ys2'>
+      <view class="item">
+        <view class='img'>
+          <image src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2961748425,612527933&fm=27&gp=0.jpg" style="width:100px;height:100px;"></image>
+        </view>
+        <view class="intro">
+          <view class="position">
+            老好人(大一×××)
+          </view>
+          <view class="jiaqian">
+            <image src="/images/lanqiu1.png" class="images4"></image>
+            <text style="margin-left:5px">篮球 </text>
+            <text class="images3">高级</text>
+          </view>
+          <view class="address">
+            琴湖球场(2-3人）
+          </view>
+          <view class="dizhi">
+            <image src="/images/dizhi.png" class="images2"></image>
+            480m 湘潭市湘潭大学琴湖15栋
+          </view>
+        </view>
+        <button bindtap="openConfirm" type="default" type="ghost" bind:click="handleSuccess" class='but'>约起</button>
+
+        <view class='rendu'>
+          16:30-18:30
+        </view>
+      </view>
+      <view class="hr"></view>
+
+      <view class="item">
+        <view class='img'>
+          <image src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1422784010,1847471088&fm=27&gp=0.jpg" style="width:100px;height:100px;"></image>
+        </view>
+        <view class="intro">
+          <view class="position">
+            小东西(教师××)
+          </view>
+          <view class="jiaqian">
+            <image src="/images/lanqiu1.png" class="images4"></image>
+            <text style="margin-left:5px">篮球 </text>
+            <text class="images3">初级</text>
+          </view>
+          <view class="address">
+            东门球场(1人)
+          </view>
+          <view class="dizhi">
+            <image src="/images/dizhi.png" class="images2"></image>
+            960m 湘潭市湘潭大学南苑10栋
+          </view>
+        </view>
+        <button bindtap="openConfirm" type="default" type="ghost" bind:click="handleSuccess" class='but'>约起</button>
+        <view class='rendu'>
+          8:00-10:00
+        </view>
+      </view>
+      <view class="hr"></view>
+
+
+      <view class="item">
+        <view class='img'>
+          <image src="http://img4.imgtn.bdimg.com/it/u=3024387196,1621670548&fm=26&gp=0.jpg" style="width:100px;height:100px;"></image>
+        </view>
+        <view class="intro">
+          <view class="position">
+            小马(大三××)
+          </view>
+          <view class="jiaqian">
+            <image src="/images/lanqiu1.png" class="images4"></image>
+            <text style="margin-left:5px">篮球 </text>
+            <text class="images3">中级</text>
+          </view>
+          <view class="address">
+            南苑球场(1-2人)
+          </view>
+          <view class="dizhi">
+            <image src="/images/dizhi.png" class="images2"></image>
+            435m 湘潭市湘潭大学琴湖14栋
+          </view>
+        </view>
+        <button bindtap="openConfirm" type="default" type="ghost" bind:click="handleSuccess" class='but'>约起</button>
+        <view class='rendu'>
+          6:00-9:00
+        </view>
+      </view>
+      <view class="hr"></view>
+
+      <view class="item">
+        <view class='img'>
+          <image src="http://img3.imgtn.bdimg.com/it/u=1766342094,1160092767&fm=26&gp=0.jpg" style="width:100px;height:100px;"></image>
+        </view>
+        <view class="intro">
+          <view class="position">
+            骚男(大一xxx)
+          </view>
+          <view class="jiaqian">
+            <image src="/images/lanqiu1.png" class="images4"></image>
+            <text style="margin-left:5px">篮球 </text>
+            <text class="images3">中级</text>
+          </view>
+          <view class="address">
+            南苑球场(3人)
+          </view>
+          <view class="dizhi">
+            <image src="/images/dizhi.png" class="images2"></image>
+            1.8km 湘潭市湘潭大学北苑10栋
+          </view>
+        </view>
+        <button bindtap="openConfirm" type="default" type="ghost" bind:click="handleSuccess" class='but'>约起</button>
+        <view class='rendu'>
+          11:00-12:00
+        </view>
+      </view>
+      <i-page current="{{ current }}" total="23" bind:change="handleChange">
+        <view slot="prev">
+          <i-icon type="return"></i-icon>
+          上一页
+        </view>
+        <view slot="next">
+          下一页
+          <i-icon type="enter"></i-icon>
+        </view>
+      </i-page>
+    </view>
+  </swiper-item>
+  <swiper-item>
+    <view class='ys2'>
+      <view class="item">
+        <view class='img'>
+          <image src="http://img2.imgtn.bdimg.com/it/u=2543382947,3805486783&fm=26&gp=0.jpg" style="width:100px;height:100px;"></image>
+        </view>
+        <view class="intro">
+          <view class="position">
+            xxx(大一×××)
+          </view>
+          <view class="jiaqian">
+            <image src="/images/lanqiu1.png" class="images4"></image>
+            <text style="margin-left:5px">篮球 </text>
+            <text class="images3">高级</text>
+          </view>
+          <view class="address">
+
+          </view>
+          <view class="dizhi">
+            <image src="/images/dizhi.png" class="images2"></image>
+            480m 湘潭市湘潭大学琴湖15栋
+          </view>
+        </view>
+        <button bindtap="openConfirm" type="default" type="ghost" bind:click="handleSuccess" class='but'>20/h</button>
+
+        <view class='rendu'>
+
+        </view>
+      </view>
+      <view class="hr"></view>
+      <navigator url='/pages/peilian/peilian'>
+        <view class="item">
+          <view class='img'>
+            <image src="http://img5.imgtn.bdimg.com/it/u=324013775,2946570240&fm=26&gp=0.jpg" style="width:100px;height:100px;"></image>
+          </view>
+
+          <view class="intro">
+            <view class="position">
+              xxx(教师××)
+            </view>
+            <view class="jiaqian">
+              <image src="/images/lanqiu1.png" class="images4"></image>
+              <text style="margin-left:5px">篮球 </text>
+              <text class="images3">初级</text>
+            </view>
+            <view class="address">
+
+            </view>
+            <view class="dizhi">
+              <image src="/images/dizhi.png" class="images2"></image>
+              960m 湘潭市湘潭大学南苑10栋
+            </view>
+          </view>
+          <button bindtap="openConfirm" type="default" type="ghost" bind:click="handleSuccess" class='but'>10/h</button>
+          <view class='rendu'>
+
+          </view>
+        </view>
+      </navigator>
+      <view class="hr"></view>
+
+
+      <view class="item">
+        <view class='img'>
+          <image src="http://img1.imgtn.bdimg.com/it/u=3251029328,2490819195&fm=26&gp=0.jpg" style="width:100px;height:100px;"></image>
+        </view>
+        <view class="intro">
+          <view class="position">
+            xxx(大三××)
+          </view>
+          <view class="jiaqian">
+            <image src="/images/lanqiu1.png" class="images4"></image>
+            <text style="margin-left:5px">篮球 </text>
+            <text class="images3">中级</text>
+          </view>
+          <view class="address">
+
+          </view>
+          <view class="dizhi">
+            <image src="/images/dizhi.png" class="images2"></image>
+            435m 湘潭市湘潭大学琴湖14栋
+          </view>
+        </view>
+        <button bindtap="openConfirm" type="default" type="ghost" bind:click="handleSuccess" class='but'>5/h</button>
+        <view class='rendu'>
+
+        </view>
+      </view>
+      <view class="hr"></view>
+
+      <view class="item">
+        <view class='img'>
+          <image src="http://img0.imgtn.bdimg.com/it/u=2881388121,25353099&fm=26&gp=0.jpg" style="width:100px;height:100px;"></image>
+        </view>
+        <view class="intro">
+          <view class="position">
+            xxx(大一xxx)
+          </view>
+          <view class="jiaqian">
+            <image src="/images/lanqiu1.png" class="images4"></image>
+            <text style="margin-left:5px">篮球 </text>
+            <text class="images3">中级</text>
+          </view>
+          <view class="address">
+
+          </view>
+          <view class="dizhi">
+            <image src="/images/dizhi.png" class="images2"></image>
+            1.8km 湘潭市湘潭大学北苑10栋
+          </view>
+        </view>
+        <button bindtap="openConfirm" type="default" type="ghost" bind:click="handleSuccess" class='but'>0/h</button>
+        <view class='rendu'>
+
+        </view>
+      </view>
+    </view>
+
+  </swiper-item>
+</swiper>

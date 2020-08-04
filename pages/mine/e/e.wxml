@@ -1,0 +1,4 @@
+<form bindsubmit='submit'>
+<textarea name="username"  placeholder='请输入您对我们的意见'></textarea> 
+<button form-type='submit'>注册</button>
+</form>

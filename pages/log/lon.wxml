@@ -1,0 +1,33 @@
+<view class="page">
+  <view class="weui-form-preview">
+    <view class="weui-form-preview__hd">
+      <view class="weui-form-preview__label">状态：</view>
+      <view class="weui-form-preview__value_in-hd">约球成功</view>
+    </view>
+    <view class="weui-form-preview__bd">
+      <view class="weui-form-preview__item" style='margin-top:50rpx'>
+        <view class="weui-form-preview__label">名字</view>
+        <view class="weui-form-preview__value">老好人</view>
+      </view>
+      <view class="weui-form-preview__item" style='margin-top:50rpx'>
+        <view class="weui-form-preview__label">地点</view>
+        <view class="weui-form-preview__value">琴湖球场</view>
+      </view>
+      <view class="weui-form-preview__item" style='margin-top:50rpx'>
+        <view class="weui-form-preview__label">具体信息</view>
+        <view class="weui-form-preview__value">大一xxx，身高xx，红色球衣……</view>
+      </view>
+    </view>
+    <view class="weui-form-preview__ft" style='margin-top:40rpx'>
+      <navigator class="weui-form-preview__btn weui-form-preview__btn_default" hover-class="weui-form-preview__btn_active" url='/pages/gereng/gereng'>取消申请</navigator>
+      <navigator class="weui-form-preview__btn weui-form-preview__btn_primary" hover-class="weui-form-preview__btn_active" url='/pages/chat/chat-detail' open-type='switchTab'>返回主页</navigator>
+    </view>
+  </view>
+</view>
+<view class="weui-footer" style='margin-top:390rpx'>
+  <view class="weui-footer__links">
+    <navigator url="" class="weui-footer__link">客服中心</navigator>
+    <navigator url="" class="weui-footer__link">球约官网</navigator>
+  </view>
+  <view class="weui-footer__text">Copyright © 2018-2024 qiuyue.com</view>
+</view>

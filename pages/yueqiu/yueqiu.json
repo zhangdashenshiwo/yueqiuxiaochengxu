@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "i-tabs": "../../dist/tabs/index",
+    "i-tab": "../../dist/tab/index",
+    "i-page": "../../dist/page/index",
+    "i-toast": "../../dist/toast/index"
+  },
+  "enablePullDownRefresh": true
+}

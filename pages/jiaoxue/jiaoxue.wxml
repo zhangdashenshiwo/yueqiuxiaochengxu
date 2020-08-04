@@ -1,0 +1,17 @@
+
+<view class='vv' wx:for='{{vedio_data}}' wx:key=''>
+  <view class='block' style='margin-left:20rpx;'>
+    <image src='/img/1.png' class='img1' style='margin-left:20rpx'></image>
+    <text class='text'>{{item.title}} </text>
+    <view id="{{index}}" class="cover" style="display: {{ _index == index ? 'none' : 'block' }};" bindtap="videoPlay">
+      <!-- 视频图层 -->
+      <image class="videoVideo2" src="{{item.img}}" mode="scaleToFill">
+        <!-- 视频按钮 -->
+        <image class="videoPlay" src="/img/bf.png" mode="scaleToFill"></image>
+      </image>
+    </view>
+  </view>
+  <!-- 视频 -->
+  <video src="{{item.url}}" id="{{index}}" class='video' wx:if="{{_index == index}}">
+  </video>
+</view>

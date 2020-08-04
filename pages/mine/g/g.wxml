@@ -1,0 +1,5 @@
+<!--pages/mine/g/g.wxml-->
+<form bindsubmit='submit'>
+<textarea name="suggest" placeholder='请输入您对我们的意见'></textarea>
+<button form-type='submit'>提交</button>
+</form>

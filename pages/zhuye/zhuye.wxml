@@ -1,0 +1,59 @@
+<view class="wrap">
+  <view class="new-author-date">
+    <image src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3677209778,3519789803&fm=27&gp=0.jpg" class="new-author"></image>
+    <text class="new-date">2019/7/7\t\t15:34</text>
+    <image src="/images/dizhi.png" class="images2"></image>
+    <text class="new-date">湘潭市雨湖区\n4.20km</text>
+  </view>
+
+  <view class="new-info">
+    <text class="new-info-tile">如水流年，相伴篮球</text>
+    <image src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2158816032,2959235790&fm=27&gp=0.jpg" class="new-info-img"></image>
+    <text class="new-info-summary">还记得 操场上的篮球架？ 它经历了风风雨雨 它验证了我们的友情 它见证了我们的幸福 它保留了我们的美好 它 是我在九年来的挚亲好友 是我难以忘怀的情人。  </text>
+  </view>
+
+  <view class="new-img-num">
+    <image src="/images/dianzan.png" class="new-img"></image>
+    <text class="new-num">1524</text>
+    <image src="/images/shoucan2.png" class="new-img"></image>
+    <text class="new-num">360</text>
+  </view>
+</view>
+<view class="wrap">
+  <view class="new-author-date">
+    <image src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=4100987808,2324741924&fm=27&gp=0.jpg" class="new-author"></image>
+    <text class="new-date">2019/7/7\t\t14:48</text>
+    <image src="/images/dizhi.png" class="images2"></image>
+    <text class="new-date">湘潭市湘潭大学\n480m</text>
+  </view>
+
+  <view class="new-info">
+    <text class="new-info-tile">因为足球，所以美丽。</text>
+    <image src="http://img2.imgtn.bdimg.com/it/u=2345302804,1973461058&fm=26&gp=0.jpg" class="new-info-img"></image>
+    <text class="new-info-summary">欢呼声，赞美声，出自他们的脚下。汗水，眼泪，在他们脚下蒸发。踢球，进球，全场欢乐笑哈哈。世界足球日，为运动员喝彩，将活力与快乐传递！  </text>
+  </view>
+
+  <view class="new-img-num">
+    <image src="/images/dianzan.png" class="new-img"></image>
+    <text class="new-num">4530</text>
+    <image src="/images/shoucan.png" class="new-img"></image>
+    <text class="new-num">684</text>
+  </view>
+
+<view class="weui-panel__ft">
+  <view class="weui-cell weui-cell_access weui-cell_link">
+    <view class="weui-cell__bd">查看更多</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </view>
+</view>
+</view>
+<i-page current="{{ current }}" total="39" bind:change="handleChange">
+  <view slot="prev">
+    <i-icon type="return"></i-icon>
+    首页
+  </view>
+  <view slot="next">
+    下一页
+    <i-icon type="enter"></i-icon>
+  </view>
+</i-page>

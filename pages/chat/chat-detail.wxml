@@ -1,0 +1,151 @@
+<view wx:if="{{isshow}}">
+  <image src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2228985605,2720940451&fm=26&gp=0.jpg"></image>
+</view>
+<view wx:else>
+  <view class="images2">
+    <view class="page">
+      <view class="page__bd">
+        <view class="weui-search-bar">
+          <view class="weui-search-bar__form">
+            <view class="weui-search-bar__box">
+              <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
+              <input type="text" class="weui-search-bar__input" placeholder="搜索" value="{{inputVal}}" focus="{{inputShowed}}" bindinput="inputTyping" />
+              <view class="weui-icon-clear" wx:if="{{inputVal.length > 0}}" bindtap="clearInput">
+                <icon type="clear" size="14"></icon>
+              </view>
+            </view>
+            <label class="weui-search-bar__label" hidden="{{inputShowed}}" bindtap="showInput">
+              <icon class="weui-icon-search" type="search" size="14"></icon>
+              <view class="weui-search-bar__text">搜索</view>
+            </label>
+          </view>
+          <view class="weui-search-bar__cancel-btn" hidden="{{!inputShowed}}" bindtap="hideInput">取消
+          </view>
+        </view>
+      </view>
+    </view>
+
+<view class='image4'>
+    <swiper indicator-dots="true" autoplay="true" interval="2000">
+      <navigator url='/pages/wenzhang/wenzhang'>
+        <swiper-item>
+          <view class="images3"></view>
+          <image src="http://img1.gtimg.com/sports/pics/hv1/206/141/2312/150373961.png" style='height:100%；width:100%' class='image4'> </image>
+        </swiper-item>
+      </navigator>
+      <swiper-item>
+        <image src="http://img1.gtimg.com/sports/pics/hv1/169/175/2309/150187519.jpg" style='height:100%；width:100% ' class='image4'></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="https://b.bdstatic.com/boxlib/20190704/2019070421001791123860841.jpg" style='height:100%；width:100%' class='image4'></image>
+      </swiper-item>
+    </swiper>
+    </view>
+
+
+
+    <view class='adduserorder'>
+
+      <view style="margin-left:90rpx">
+        <image mode='scaleToFill' src='/images/b1.png' plain='true' class='image'></image>
+      </view>
+
+
+      <view style="margin-left:130rpx">
+        <navigator url="/pages/yueqiu/yueqiu">
+          <image mode='aspectFill' src='/images/lanqiu.png' plain='true' class='image'></image>
+        </navigator>
+      </view>
+
+
+
+      <view style="margin-left:130rpx">
+        <navigator url='/pages/gongxiang/gongxiang'>
+          <image mode='aspectFill' src='/images/wangluo.png' plain='true' class='image'></image>
+        </navigator>
+      </view>
+
+      <button type="handleClicks" catchtap="handleClicks" class="circle" style="margin-left:40px">
+        <image mode='aspectFill' src='/images/b3.png' plain='true' class='image'></image>
+      </button>
+
+
+    </view>
+
+    <view class='textls'>
+      <view class='viewclass'>
+        <text class='viewview'>陪练</text>
+      </view>
+
+      <view class='viewclass'>
+        <navigator url="/pages/yueqiu/yueqiu">
+          <text class='viewview'>约球</text>
+        </navigator>
+      </view>
+
+      <view class='viewclass'>
+        <navigator>
+          <text class='viewview'>球资共享</text>
+        </navigator>
+      </view>
+      <view class='viewclass'>
+        <text class='viewview'>比赛管家</text>
+      </view>
+    </view>
+    <view class='adduserorder'>
+      <view style="margin-left:90rpx">
+        <image mode='aspectFill' src='/images/b2.png' plain='true' class='image'></image>
+      </view>
+      <view class="circle" style="margin-left:130rpx">
+        <navigator url='/pages/jiaoxue/jiaoxue'>
+          <image mode='aspectFill' src='/images/shiping.png' plain='true' class='image'></image>
+        </navigator>
+      </view>
+      <view style="margin-left:90rpx">
+        <navigator url='/pages/donate/donate'>
+          <image mode='aspectFill' src='/images/aixing.png' plain='true' class='image'></image>
+        </navigator>
+      </view>
+      <button type="handleClicks" catchtap="handleClicks" class="circle" style="margin-left:40px">
+        <image mode='aspectFill' src='/images/b4.png' plain='true' class='image'></image>
+      </button>
+    </view>
+    <view class='textls'>
+      <view class='viewclass'>
+        <text class='viewview'>技术咨询</text>
+      </view>
+      <view class='viewclass'>
+        <text class='viewview'>技术教学</text>
+      </view>
+      <view class='viewclass'>
+        <text class='viewview'>捐赠公益</text>
+      </view>
+      <view class='viewclass'>
+        <text class='viewview'>裁判请求</text>
+      </view>
+
+    </view>
+
+    <view class="weui-panel weui-panel_access" class="images2">
+      <view class="weui-panel__hd">
+        <text style="margin-left:10px"> 热门新闻</text> </view>
+      <view class="weui-panel__bd" wx:for="{{list}}">
+        <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+          <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+            <image class="weui-media-box__thumb" src="{{item.images}}" />
+          </view>
+          <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+            <view class="weui-media-box__title">{{item.name}}</view>
+            <view class="weui-media-box__desc">{{item.container}}</view>
+          </view>
+        </navigator>
+      </view>
+    </view>
+    <view class="weui-panel__ft">
+      <view class="weui-cell weui-cell_access weui-cell_link">
+        <view class="weui-cell__bd">查看更多</view>
+        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+      </view>
+    </view>
+  </view>
+</view>

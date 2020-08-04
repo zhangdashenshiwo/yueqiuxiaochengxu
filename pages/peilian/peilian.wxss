@@ -1,0 +1,8 @@
+.images{
+  height: 50rpx;
+  width: 50rpx;
+  
+}
+page{
+    background-color: #FFFFFF;
+}

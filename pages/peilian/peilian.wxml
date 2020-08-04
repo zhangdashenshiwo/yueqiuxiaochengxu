@@ -1,0 +1,25 @@
+<i-card title="小老弟" extra="10元/h" thumb="http://img5.imgtn.bdimg.com/it/u=324013775,2946570240&fm=26&gp=0.jpg">
+  <view slot="content">
+
+    <image src='/images/dizhi.png' class='images' style='color:blue'></image>
+    预约地址：500m琴湖15栋309寝室
+  </view>
+  <view slot="footer" style='font-size:13px ;color:red'>
+    <image src='/images/shijian2.png' class='images'></image>
+    预约时间：周末下午5小时</view>
+</i-card>
+<i-panel title="基础用法">
+  <view style="margin:15px">
+    预约时长：
+    <i-input-number value="{{ value1 }}" min="0" max="100" bindchange="handleChange1"  />
+  </view>
+</i-panel>
+<button class="weui-btn" type="primary" bindtap="openConfirm" style='font-size:50rpx'>{{value1}}0元</button>
+
+<view class="weui-footer" style='margin-top:390rpx'>
+  <view class="weui-footer__links">
+    <navigator url="" class="weui-footer__link">客服中心</navigator>
+    <navigator url="" class="weui-footer__link">球约官网</navigator>
+  </view>
+  <view class="weui-footer__text">Copyright © 2018-2024 qiuyue.com</view>
+</view>

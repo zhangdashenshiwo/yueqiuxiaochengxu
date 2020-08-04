@@ -1,0 +1,40 @@
+<i-card title="篮球一" extra="1元/h" thumb="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2959572316,2829975479&fm=27&gp=0.jpg" style="height:50rpx;width:50rpx">
+  <view slot="content">
+
+    <image src='/images/dizhi.png' class='images' style='color:blue'></image>
+    领取地点：500m琴湖15栋309寝室
+  </view>
+  <view slot="footer" style='font-size:13px ;color:red'>
+    <image src='/images/shijian2.png' class='images'></image>
+    借用时间：周六-周天</view>
+</i-card>
+<i-card>
+  <view slot="content">
+    具体信息：
+  </view>
+  <view slot="footer" style='font-size:13px; margin-top:0rpx'>
+    <text>
+  品牌: Spalding/斯伯丁Spalding
+  斯伯丁篮球系列: NBA比赛用球
+  材质: PU颜色分类:
+  74-604Y【男子掌控7号球】 
+  篮球规格: 七号篮球(标准球)
+  </text>
+
+  </view>
+</i-card>
+
+<i-panel title="基础用法">
+  <view style="margin:15px">
+    借用时长：
+    <i-input-number value="{{ value1 }}" min="0" max="100" bindchange="handleChange1" />
+  </view>
+</i-panel>
+<button class="weui-btn" type="primary" bindtap="openConfirm" style='font-size:50rpx'>支付{{value1}}元</button>
+<view class="weui-footer" style='margin-top:390rpx'>
+  <view class="weui-footer__links">
+    <navigator url="" class="weui-footer__link">客服中心</navigator>
+    <navigator url="" class="weui-footer__link">球约官网</navigator>
+  </view>
+  <view class="weui-footer__text">Copyright © 2018-2024 qiuyue.com</view>
+</view>

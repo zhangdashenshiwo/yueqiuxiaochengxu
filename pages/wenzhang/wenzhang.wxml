@@ -1,0 +1,27 @@
+<view class="page" class='images'>
+  <view class="page__bd">
+    <view class="weui-article">
+      <view class="weui-article__h1" style='font-size:60rpx'>火箭活塞等队有意韦少 留在雷霆还是另择良木？</view>
+      <view class="weui-article__section" >
+        <view class="weui-article__title" style='font-size:50rpx'>北馆第一半截篮</view>
+        <view class="weui-article__section">
+          <view class="weui-article__h3" style='font-size:40rpx'>2019/7/8 \t07:08</view>
+          <view class="weui-article__p">
+            <text>根据NBA记者Tom MacMahon报道，火箭有意得到雷霆后卫拉塞尔·威斯布鲁克。但另一位了解情况的人士表示，这笔交易的谈判会需要很长一段时间，因为火箭需要寻找第三方球队进行较为复杂的交易。</text>
+             <view class="weui-article__p">
+            <image class="weui-article__img" src="http://img1.gtimg.com/sports/pics/hv1/206/141/2312/150373961.png" mode="aspectFit" style="height: 100% width:100%" ></image>
+             </view>
+             <text>
+同时，热火记者Barry Jackson今天早些时候表示热火管理层非常喜欢韦少，热火有可能是他的下一站。
+
+另一位记者Ross爆料表示最先有意与雷霆交易的两支球队是活塞和森林狼，而活塞正强势追逐韦少。格里芬+罗斯+韦少这组合能否率领活塞冲出东部？
+
+2018-19赛季常规赛，威斯布鲁克场均上场36.0分钟，得到22.9分11.1篮板10.7助攻1.95抢断，季后赛场均上场39.4分钟，得到22.8分9.0篮板10.6助攻1.00抢断。
+
+留在雷霆还是另择良木？这是值得思考的一个问题。</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,159 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false,
+		"coverView": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.7.3",
+	"appid": "wx30a7960d54531388",
+	"projectname": "miniprogram-test-3",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 15,
+			"list": [
+				{
+					"id": -1,
+					"name": "pages/yueqiu/yueqiu",
+					"pathName": "pages/yueqiu/yueqiu",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/chat/chat-detail",
+					"pathName": "pages/chat/chat-detail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/zhuye/zhuye",
+					"pathName": "pages/zhuye/zhuye",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/yueqiu/yueqiu",
+					"pathName": "pages/yueqiu/yueqiu",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/gereng/gereng",
+					"pathName": "pages/gereng/gereng",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "123",
+					"pathName": "pages/jiaoxue/jiaoxue",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "123",
+					"pathName": "pages/log/lon",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "123",
+					"pathName": "pages/log/lon",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "123",
+					"pathName": "pages/peilian/peilian",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "123",
+					"pathName": "pages/peilian/peilian",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "123",
+					"pathName": "pages/gongxiang/gongxiang",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "123",
+					"pathName": "pages/chat/chat-detail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "123",
+					"pathName": "pages/donate/donate",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "123",
+					"pathName": "pages/zhuye/zhuye",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "123",
+					"pathName": "pages/xq/xq",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "123",
+					"pathName": "pages/chat/chat-detail",
+					"scene": null
+				}
+			]
+		}
+	}
+}

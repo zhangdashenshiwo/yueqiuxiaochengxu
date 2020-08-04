@@ -1,0 +1,6 @@
+<!--pages/mine/d/d.wxml-->
+<form bindsubmit='test'>
+<textarea name="username"  placeholder='请输入您对我们的意见'></textarea> 
+<button form-type='submit'>登陆</button>
+</form>
+

@@ -1,0 +1,6 @@
+/* pages/mine/e/e.wxss */
+textarea{
+  height: 300rpx;
+  width: 100%;
+  border: solid 1rpx
+}
